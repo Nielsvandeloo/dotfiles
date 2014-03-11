@@ -1,10 +1,8 @@
 # env values used by other scripts and applications
-export PATH=$HOME/.rbenv/bin:$HOME/packer:/usr/local/bin:$PATH:$HOME/bin
+export PATH=$HOME/.rbenv/bin:/usr/local/bin:$PATH:$HOME/bin
 export TERM=xterm-256color
-export EDITOR="emacs"
-export ZEUS_GUARD=true
-export PARALLEL=true
-export PROJECT_BASE=$HOME/bonusbox/projects
+# TODO export EDITOR="emacs"
+# TODO export PROJECT_BASE=$HOME/bonusbox/projects
 export ORGANIZATION_GITHUB_LOGIN="bonusboxme"
 export AWS_ENV="production"
 export BOXEN_REDIS_PORT="6379"
